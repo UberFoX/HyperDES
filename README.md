@@ -51,14 +51,15 @@ var e = Encoding.UTF8.GetString(t);
 
 ## Sample Output
 ```
-CipherText:
-81 F8 F0 51 EC B3 6D F6 7B 4A CF D5 CB 9B 57 B6
-34 40 C0 4F 81 67 70 AC 78 08 A4 C6 08 40 1C F2
-BF B1 1F BA 50 80 7F F4 57 46 CC DB DE 41 92 02
-D2 4C EF 36 3F 9D 98 10 9A AF 84 C8 97 9C 5E 0C
-PlainText:
+CipherText
+81 F8 F0 51 EC B3 6D F6 7B 4A CF D5 CB 9B 57 B6 .odQì.mö{JIOE.W¶
+34 40 C0 4F 81 67 70 AC 78 08 A4 C6 08 40 1C F2 4@AO.gp¬x.☼Æ.@.ò
+BF B1 1F BA 50 80 7F F4 57 46 CC DB DE 41 92 02 ¿±.ºP..ôWFIU_A..
+D2 4C EF 36 3F 9D 98 10 9A AF 84 C8 97 9C 5E 0C OLï6?...._.E..^.
+PlainText
 The quick brown fox jumps over the lazy dog
 ```
+
 ## Security Note
 The security of this cipher relies on the secrecy of the key, not the algorithm. The source code can be published without weakening the cipher's security.
 
