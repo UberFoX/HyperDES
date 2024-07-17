@@ -1,0 +1,11 @@
+Release/
+obj/
+x64/
+*.sdf
+*.opensdf
+.vs/*
+bin/*
+<<<<<<< HEAD
+=======
+bin/*.dll
+>>>>>>> 4b2d964fe1fa8cc2389abc4e656d219398c8fb12
